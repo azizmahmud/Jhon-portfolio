@@ -1,0 +1,59 @@
+
+
+body{
+    margin:0;
+    padding: 0;
+    font-family: 'Figtree', sans-serif;
+}
+
+
+h1{
+    font-family: 'Urbanist', sans-serif;
+}
+
+.container{
+    max-width: 1170px;
+    margin: auto;
+  
+}
+
+
+
+
+.navigation{
+    padding: 24px 5%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    }
+
+    .nav-right ul{
+list-style: none;
+display: flex;
+align-items: center;
+justify-content: flex-end;
+gap: 50px;
+    }
+    .nav-right ul li a{
+        text-decoration: none;
+        
+        font-size: 18px;
+        color: #2f3349;
+        font-weight: 600;
+        
+    }
+
+
+
+
+    /* Hero Section Start  */
+
+.hero-container{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+
+
+    /* Hero Section End  */
